@@ -314,6 +314,7 @@ nav {
    align-items: flex-start;
 }
 
+
 .tst__title {
    margin-left: 32px;
    display: flex;
@@ -354,6 +355,18 @@ nav {
 
 .carousel img:last-child {
    margin: 0;
+}
+
+.carousel__pics {
+   width: 15px;
+   height: 15px;
+   margin: 0px 2px;
+   border: 1px solid black;
+   cursor: pointer
+}
+
+.current {
+   background-color:black;
 }
 
 .picnumbers {
