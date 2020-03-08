@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <link rel="stylesheet" href="css/style.css">
@@ -10,7 +11,9 @@
    <link rel="stylesheet" href="css/all.css">
    <title>SecondLanding</title>
 </head>
+
 <body>
+   <!-- HEADER -->
    <header>
       <div class="container">
          <div class="heading">
@@ -20,13 +23,21 @@
                   <p class="heading__logo-text1">OENRIQUE</p>
                   <p class="heading__logo-text2">WINDOWS AND DOORS</p>
                </div>
-               <ul class="heading__nav wow fadeInDown">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#services">Service</a></li>
-                  <li><a href="#portfolio">Portfolio</a></li>
-                  <li><a href="#">Contact</a></li>
-               </ul>
+               <div class="heading__nav-menu">
+                  <div id='heading__nav-menuBurger' class='heading__nav-menuBurger'>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </div>
+                  <ul class="heading__nav-items wow fadeInDown">
+                     <li><a href="#">Home</a></li>
+                     <li><a href="#about">About</a></li>
+                     <li><a href="#services">Service</a></li>
+                     <li><a href="#portfolio">Portfolio</a></li>
+                     <li><a href="#footer">Contact</a></li>
+                  </ul>
+               </div>
             </nav>
          </div>
          <div class="heading__title">
@@ -41,27 +52,35 @@
                   <a href="#" class="heading__title-button1">KNOW MORE</a>
                   <a href="#" class="heading__title-button2">HIRE ME</a>
                </div>
-            </div>   
-            <img src="img/face1.png" class = 'fadeInRight' alt="man">
+            </div>
+            <img src="img/face1.png" class='fadeInRight' alt="man">
          </div>
       </div>
    </header>
+   <!-- END OF HEADER -->
+
+   <!-- ABOUT SECTION -->
    <section id='about'>
       <div class="container">
          <div class="about">
-            <div class="about__text wow fadeInLeft">
+            <div class="about__text">
                <h1>
-                  KNOW MORE <br>  ABOUT ME
+                  KNOW MORE <br> ABOUT ME
                </h1>
                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat sapiente voluptatem, a adipisci labore alias omnis iusto mollitia corrupti sint magni porro corporis eum fugiat ipsum laboriosam maxime, quo natus.
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat sapiente voluptatem, a adipisci
+                  labore alias omnis iusto mollitia corrupti sint magni porro corporis eum fugiat ipsum laboriosam
+                  maxime, quo natus.
                </p>
                <a href="#">DOWNLOAD MY CV</a>
             </div>
-            <img src="img/face2.jpeg" class = 'wow fadeInRight' alt="Face2">
+            <img src="img/face2.jpeg" class='wow fadeInRight' alt="Face2">
          </div>
       </div>
    </section>
+   <!-- END OF ABOUT SECTION -->
+
+   <!-- SERVICES SECTION -->
    <section id='services' class="services__main">
       <div class="container">
          <div class="services">
@@ -79,8 +98,6 @@
                   <img src="img/services3.png" alt="servc3">
                   <p>User Testing</p>
                </div>
-            </div>
-            <div class="services__items wow fadeInRight">
                <div class="services__item">
                   <img src="img/services4.png" alt="servc4">
                   <p>Looks and Feel Design (UI)</p>
@@ -97,67 +114,78 @@
          </div>
       </div>
    </section>
-   <section  class="skills">
+   <!-- END OF SERVICES SECTION -->
+
+   <!-- SKILLS SECTION -->
+   <section class="skills">
       <div class="container">
          <h1 class="skills__title wow fadeInDown">My Skills</h1>
-         <img class = "skills__img wow fadeInUp"src="img/skillboard.png" alt="Skills">
+         <img class="skills__img wow fadeInUp" src="img/skillboard.png" alt="Skills">
       </div>
    </section>
    <section id='portfolio' class="portfolio">
       <div class="container">
          <h1 class="main__title">Portfolio</h1>
          <div class="portfolio__items">
-            <img src="img/portfolio1.png" class = 'wow fadeInLeft' alt="prtf1">
-            <img src="img/portfolio2.png" class = 'wow fadeInDown' alt="prtf2">
-            <img src="img/portfolio3.png" class = 'wow fadeInRight' alt="prtf3">
-         </div>
-         <div class="portfolio__items">
-            <img src="img/portfolio4.png" class = 'wow fadeInLeft'alt="prtf4">
-            <img src="img/portfolio5.png" class = 'wow fadeInDown' alt="prtf5">
-            <img src="img/portfolio6.png" class = 'wow fadeInRight'alt="prtf6">
+            <img src="img/portfolio1.png" class='wow fadeInLeft' alt="prtf1">
+            <img src="img/portfolio2.png" class='wow fadeInDown' alt="prtf2">
+            <img src="img/portfolio3.png" class='wow fadeInRight' alt="prtf3">
+            <!-- </div>
+         <div class="portfolio__items"> -->
+            <img src="img/portfolio4.png" class='wow fadeInLeft' alt="prtf4">
+            <img src="img/portfolio5.png" class='wow fadeInDown' alt="prtf5">
+            <img src="img/portfolio6.png" class='wow fadeInRight' alt="prtf6">
          </div>
          <a href="#" class="heading__title-button1 prtf__btn">LOAD MORE</a>
       </div>
    </section>
+   <!-- END OF SKILLS SECTION -->
+
+   <!-- TESTIMONIALS SECTION -->
    <section class="main_testimonials">
       <div class="container">
          <div class="testimonials">
-            <h3 class="main__title wow fadeInDown">Testimonials</h3>
-            <div class="limara__title wow fadeInUp">
-               <div class="tst__limara">
-                  <img src="img/limara.png" alt="Limara">
-                  <div class="tst__title">
-                     <h2>Limara tusi</h2>
-                     <h3>CEO, RanDOM COMPANY</h3>
-                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat vero quisquam amet minus voluptas vitae assumenda error similique rerum nostrum?</p>
+            <h1 class="main__title wow fadeInDown">Testimonials</h3>
+               <div class="limara__title wow fadeInUp">
+                  <div class="tst__limara">
+                     <img src="img/limara.png" alt="Limara">
+                     <div class="tst__title">
+                        <h2>Limara tusi</h2>
+                        <h3>CEO, RanDOM COMPANY</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat vero quisquam amet minus
+                           voluptas vitae assumenda error similique rerum nostrum?</p>
+                     </div>
+                  </div>
+                  <div class="tst__limara">
+                     <img src="img/limara.png" alt="Limara">
+                     <div class="tst__title">
+                        <h2>Tisu Malira</h2>
+                        <h3>CEO, RanDOM COMPANY</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis quam sed cum eveniet
+                           ullam, omnis eos nemo possimus aliquid iusto!</p>
+                     </div>
+                  </div>
+                  <div class="tst__limara">
+                     <img src="img/limara.png" alt="Limara">
+                     <div class="tst__title">
+                        <h2>Tilima Tisu</h2>
+                        <h3>CEO, RanDOM COMPANY</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi esse ipsa tempore harum fuga
+                           dolore, iste eveniet eos repellendus reprehenderit?</p>
+                     </div>
+                  </div>
+                  <div class="carousel">
+                     <div class="carousel__pics current"></div>
+                     <div class="carousel__pics"></div>
+                     <div class="carousel__pics"></div>
                   </div>
                </div>
-               <div class="tst__limara">
-                  <img src="img/limara.png" alt="Limara">
-                  <div class="tst__title">
-                     <h2>Tisu Malira</h2>
-                     <h3>CEO, RanDOM COMPANY</h3>
-                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis quam sed cum eveniet ullam, omnis eos nemo possimus aliquid iusto!</p>
-                  </div>
-               </div>
-               <div class="tst__limara">
-                  <img src="img/limara.png" alt="Limara">
-                  <div class="tst__title">
-                     <h2>Tilima Tisu</h2>
-                     <h3>CEO, RanDOM COMPANY</h3>
-                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi esse ipsa tempore harum fuga dolore, iste eveniet eos repellendus reprehenderit?</p>
-                  </div>
-               </div>
-               <div class="carousel">
-                  <div class="carousel__pics current"></div>
-                  <div class="carousel__pics"></div>
-                  <div class="carousel__pics"></div>
-               </div>
-            </div>
          </div>
       </div>
-   </div>
    </section>
+   <!-- END OF TESTIMONIALS SECTION -->
+
+   <!-- PICNUMBERS SECTION -->
    <section class="picnumbers">
       <div class="container">
          <div class="picnumbers__content">
@@ -167,7 +195,7 @@
                <p>Hands to work</p>
             </div>
             <div class="picnumbers__element wow fadeInDown">
-               <img src="img/tes2.png"  alt="tes2">
+               <img src="img/tes2.png" alt="tes2">
                <h3>310</h3>
                <p>happy client</p>
             </div>
@@ -177,37 +205,44 @@
                <p>finished project</p>
             </div>
             <div class="picnumbers__element wow fadeInDown">
-               <img src="img/tes4.png"  alt="tes4">
+               <img src="img/tes4.png" alt="tes4">
                <h3>720</h3>
                <p>cups of coffee</p>
             </div>
          </div>
       </div>
    </section>
-   <footer>
-         <h3 class="footer_title">Say Hello!</h3>
-         <form class = form>
-            <div class = "name_email">
-               <p><input type="text" name="name" class="feedback-input" placeholder="Name" id="name"></p>
-               <p><input type="email" name="email" class="feedback-input" placeholder="Email" id="email"></p>
-            </div>   
-            <p><textarea name="text" id="comment" placeholder="Message"></textarea></p>
-            <input type="submit" value="Send " class="button-submit">
+   <!-- END OF PICNUMBERS SECTION -->
+
+   <!-- FOOTER SECTION -->
+   <footer id='footer'>
+      <h1 class="footer_title">Say Hello!</h3>
+         <form id='footer_form' class='footer_form'>
+            <div class="name_email">
+               <input type="text" name="name" class="feedback-input" placeholder="Name" id="name">
+               <input type="email" name="email" class="feedback-input" placeholder="Email" id="email">
+            </div>
+            <div class='footer__textarea'>
+               <textarea name="text" id="comment" placeholder="Message"></textarea>
+            </div>
+            <button class='button-submit' type='submit'>SEND</button>
          </form>
          <div class="container footer-2">
             <div class="footer_icons">
-               <a href="#"><i class="fab fa-facebook-f"></i></a>
-               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
                <a href="#"><i class="fab fa-linkedin-in"></i></a>
                <a href="#"><i class="fab fa-google-plus-g"></i></a>
                <a href="#"><i class="fab fa-behance"></i></a>
                <a href="#"><i class="fab fa-dribbble"></i></a>
             </div>
-            <p class="footer_rights">2017. All Right Reserved</p>
+            <p class="footer_rights">2020. All Right Reserved</p>
          </div>
    </footer>
-   <script src = 'js/wow.min.js'></script>
-   <script src = 'js/wowinit.js'></script>
-   <script src = 'js/script.js'></script>
+   <!-- END OF FOOTER -->
+   <script src='js/wow.min.js'></script>
+   <script src='js/wowinit.js'></script>
+   <script src='js/script.js'></script>
 </body>
+
 </html>
