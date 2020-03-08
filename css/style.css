@@ -616,8 +616,7 @@ footer {
    letter-spacing: .05em;
 }
 
-
-@media screen and (min-width:480px) and (max-width:800px) {
+@media (min-width:319px) and (max-width:800px) {
    h1:before {
       display: none;
    }
